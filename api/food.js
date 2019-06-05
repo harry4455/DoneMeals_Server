@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const mysql = require('mysql');
-//const multer = require('multer');
-//var Q = require('Q');
 const upload = require('./uploadMiddleware');
 const Resize = require('./resize');
 var path = require('path');
@@ -36,29 +34,6 @@ async function getDataFromDB(query){
     });
     connection.end();
 }
-
-// //파일 저장위치와 파일이름 설정
-// var storage = multer.diskStorage({
-//     destination: function (req, file, cb) {
-//         //파일이 이미지 파일이면
-//         if (file.mimetype == "image/jpeg" || file.mimetype == "image/jpg" || file.mimetype == "image/png") {
-//              console.log("이미지 파일이네요");
-//              cb(null, '../uploads');
-//             } 
-//     },
-//     //파일이름 설정
-//     filename: function (req, file, cb) {
-//         file.uploadedFile = {
-//             name: req.params.filename,
-//             ext: file.mimetype.split('/')[1]
-//         };
-//         cb(null, file.uploadedFile.name + "." + file.uploadedFile.ext);
-//       }
-// });
-
-// var upload = multer({ storage: storage })
-
-
 
 /* GET foodlist */
 router.get('/', async(req, res, next) => {

@@ -1,5 +1,6 @@
 ﻿# Donemeals
 
+
 인공지능 식습관 관리 앱 (iOS 모바일 애플리케이션)
 
 2019-1 미디어 프로젝트 (이형락, 박창현, 이지나)
@@ -13,8 +14,7 @@
 
 ---
 
-### 
-주요기능
+### 주요기능
 
 
 * 로그인(이메일로 로그인, 카카오톡 로그인)
@@ -60,7 +60,7 @@
  
  2. 음식정보(FoodInfo)
     
- * fid, name, imageURL, createdTime, nutrientInfo(Struct)
+ * fid, name, imageURL, createdTime, nutrientInfo
 
 
 * View
