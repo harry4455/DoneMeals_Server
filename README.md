@@ -1,7 +1,7 @@
 ﻿
 # Donemeals
 
-<img width="512" src="./.assets/donemeals.png" alt="DoneMeals Logo" />
+<img width="128" src="./.assets/donemeals.png" alt="DoneMeals Logo" />
 
 [![CircleCI](https://img.shields.io/badge/express-4.16.1-blue.svg)]()
 [![CircleCI](https://img.shields.io/badge/npm-v6.4.1-brightgreen.svg)]()
