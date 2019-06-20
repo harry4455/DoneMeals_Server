@@ -3,8 +3,8 @@
 
 <img width="128" src="./.assets/donemeals.png" alt="DoneMeals Logo" />
 
-[![CircleCI](https://img.shields.io/badge/express-4.16.1-blue.svg)]()
-[![CircleCI](https://img.shields.io/badge/npm-v6.4.1-brightgreen.svg)]()
+[![CircleCI](https://img.shields.io/badge/express-4.16.1-blue.svg)](http://expressjs.com/)
+[![CircleCI](https://img.shields.io/badge/npm-v6.4.1-brightgreen.svg)](https://www.npmjs.com/)
 
 
 인공지능 식습관 관리 앱 (iOS 모바일 애플리케이션)
